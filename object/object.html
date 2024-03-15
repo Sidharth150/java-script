@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>object</title>
+</head>
+<body>
+    <script>
+        let product = {
+
+            company : 'ABC',
+            item_name : ( 't-shirt'),
+            pricr : 500000,
+
+        };
+     // ek ek kar ke karna 
+        console.log((product.company));
+        console.log((product.item_name));
+        console.log((product.pricr));
+        //
+        console.log((product));
+
+        //agar company name change kare tho
+        product.company =' XYX';
+        console.log(product);
+        //
+        delete product['company'];
+        console.log(product);
+
+    </script>
+</body>
+</html>
